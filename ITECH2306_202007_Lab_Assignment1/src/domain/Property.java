@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @author Takeogh
+ * @author sahil
  * @version 1.0
  * @created 02-Apr-2020 8:30:00am
  */
@@ -124,6 +124,11 @@ public abstract class Property {
 	public String toString() {
 		return "Property [description=" + description + ", capitalImprovedValue=" + capitalImprovedValue
 				+ ", capitalImprovedRate=" + capitalImprovedRate + "] \n";
+	}
+
+	public double CalculateExtraServices() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	
