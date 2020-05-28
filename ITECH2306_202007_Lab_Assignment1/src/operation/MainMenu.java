@@ -39,7 +39,7 @@ public class MainMenu {
 		System.out.println("What would you like to do?");
 		System.out.println("1.  Add a Rate Payer");
 		System.out.println("2.  Add a Property");
-		System.out.println("3.  Calculate a Property Type's Yearly Rates Total");
+		System.out.println("3.  Calculate a Property Type Yearly Rates Total");
 		System.out.println("0.  Exit Program");
 
 	}
@@ -75,9 +75,7 @@ public class MainMenu {
 			case 2:
 				fd = new AddProperty(console);
 				break;
-			case 3:
-				fd = new CalculatePropertyTypeRates(console);
-				break;
+			
 			case 0:
 				System.out.println("Exiting the system...");
 				System.out.print(ESC + "2J"); //Something to flush the Eclipse console

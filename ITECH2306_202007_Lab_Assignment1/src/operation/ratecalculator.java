@@ -1,4 +1,4 @@
-package citycouncilratecalculator;
+package operation;
 import java.util.*;
 class property
 {

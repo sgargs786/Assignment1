@@ -1,4 +1,4 @@
-package filecitycouncilratecalculator;
+package citycouncilratecalculator.src.citycouncilratecalculator;
 
 import java.util.Scanner;
 import java.util.Vector;
